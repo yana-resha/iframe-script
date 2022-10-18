@@ -1,6 +1,6 @@
-const button = document.querySelectorAll('tg-btn');
+const button = document.querySelectorAll('.tg-btn');
 
-const iframe = document.createElement('iframe');
+let iframe = document.createElement('iframe');
     iframe.src = 'https://yana-resha.github.io/example/';
     iframe.style.position = 'absolute';
     iframe.style.top = 'calc(50% - (50%/2))';
